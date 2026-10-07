@@ -1,0 +1,23 @@
+# Dependencias y entornos locales
+node_modules/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Archivos generados
+dist/
+build/
+*.log
+.DS_Store
